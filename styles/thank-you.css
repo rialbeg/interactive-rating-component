@@ -1,0 +1,39 @@
+#card-box {
+  width: 35rem;
+  height: 35rem;
+  background: var(--dark-blue);
+
+  position: relative;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+#card-content {
+  width: 80%;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#selected-text {
+  color: var(--orange);
+  background: var(--light-blue);
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+}
+
+#card-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+#card-content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.6;
+}

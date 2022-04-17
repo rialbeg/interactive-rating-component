@@ -1,0 +1,117 @@
+#card-box {
+  width: 35rem;
+  height: 35rem;
+  background: var(--dark-blue);
+
+  position: relative;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon-star {
+  width: 4rem;
+  height: 4rem;
+  background: var(--light-blue);
+
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+}
+
+#icon-star img {
+  width: 1.5rem;
+}
+
+#card-content {
+  margin-top: 6rem;
+  width: 80%;
+  line-height: 2rem;
+}
+
+#card-content h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#card-content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.6;
+
+  margin-bottom: 2rem;
+}
+
+#grades-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+
+  margin-bottom: 3rem;
+}
+
+.grade {
+  width: 3.8rem;
+  height: 3.8rem;
+  background: var(--light-blue);
+
+  font-size: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+
+  transition: all 0.2s;
+}
+
+.grade:hover {
+  background: var(--light-grey);
+  cursor: pointer;
+}
+
+.grade:active {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+#submit-button {
+  background: var(--orange);
+  border: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 20px;
+
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+
+  transition: 0.2s all;
+}
+
+#submit-button:hover {
+  background: var(--white);
+  color: var(--orange);
+}
+
+#submit-button:active {
+  transform: scale(1.2);
+}
+.active {
+  background: var(--orange);
+  color: var(--white);
+}
