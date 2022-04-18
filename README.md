@@ -72,4 +72,4 @@ soluções melhores focando em alguns padrões de projeto.
 
 - Portfolio - [Gabriel Mascarenhas]()
 - Frontend Mentor - [@rialbeg](https://www.frontendmentor.io/profile/rialbeg)
-- Linkedin - [@](https://www.linkedin.com/in/gsamascarenhas/)
+- Linkedin - [@gsamascarenhas](https://www.linkedin.com/in/gsamascarenhas/)
